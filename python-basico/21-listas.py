@@ -58,7 +58,7 @@ while True:
         if letra_secreta in digitadas:
             secreto_temporario += letra_secreta
         else:
-            secreto_temporario += '*'
+            secreto_temporario += '*' # Estu concatenando
     if secreto_temporario == secreto:
         print(f'Que legal você GANHOOOU !!! A palavra era {secreto_temporario}')
         break
