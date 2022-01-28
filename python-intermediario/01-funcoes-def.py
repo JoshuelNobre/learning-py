@@ -1,4 +1,3 @@
-from traceback import print_tb
 
 
 def saudacao(msg='Olá', nome='Usuário'):
